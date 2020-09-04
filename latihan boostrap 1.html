@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Boostrap css -->
+    <link rel="stylesheet" href="asset/css/boostrap.min.css">
+
+    <title>matsnahr</title>
+
+    <style>
+        #overview{
+            background-image: url("asset/images/puncak_rajawali.jpg");
+            background-size: cover;
+        }
+        @media (max-width: 575.98px){
+            #overview-image{
+                display: none;
+            }
+            .container-fluid{
+                box-sizing: content-box;
+            }
+            #navigation{
+                display: none;
+            }
+
+            #desciption h1{
+                font-size: 2rem;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="header">
+            <div id="logo" class="col-sm-6">
+                <a href="index.html">
+                <img src="smk_mutu.jpg" height="70" width="70" class="src">
+                </a>
+            </div>
+            <div id="navigation" class="col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                    <a class="nav-link text uppercase text-dark" href="#" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase-text text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase-text text-dark" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase-text text-dark" href="#">Servis</a>
+                    </li>
+    </div>
+    <!-- block overview -->
+    <div id="overview" class="container-fluid">
+        <div class="row">
+            <div id="description"></div>
+            <div class="col-6 pl-5 pt-2">
+                <h1 class="text-light">Berlatih memggunakan Bootstrap, segera bergabung</h1>
+                <p class="text-light">Dapatkan Banyak Ilmu</p>
+                <a class="btn btn-light" href="#">Daftar</a>
+            </div>
+            <div id="overview-image" class="col-sm-6">
+                <img src="asset/images/puncak_rajawali.jpg" alt="ini foto">
+            </div>
+        </div>
+    </div>
+
+        <!-- block article -->
+        <div class="container" id="article">
+            <div class="row">
+                <div id="content" class="col-sm-8">
+                    <div class="list-article"> 
+                        <img class="img-fluid" src="asset/images/sinyal.jpg" alt="gagal">
+                        <a href="#">Artikel</a>
+                        <div id="author">
+                            <img class="rounded-circle" src="terate.jpg" height="48" alt="terate">
+                            <p class="right pt-3 pl-2"><i>Matsnahr 4 September 2020</i></p>
+                        </div>
+                        <br>
+                        <h2 class="display-5">Perkembangan Teknologi</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consequuntur, excepturi cupiditate expedita dolores necessitatibus molestias nobis rerum consectetur cum et facilis non quis laboriosam ad sed magnam odit veritatis!</p>
+                   <a class="btn btn-primary" href="#">Read More</a>
+                    </div>
+                </div>
+                <div id="sidebar" class="col-sm-4">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+        <!-- block footer -->
+        <div class="container-fluid-5 bg-light">
+            <div class="row">
+                <div class="col-3">
+                  <h2>Shop</h2>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sequi eveniet sapiente, nobis enim eos quae aliquid commodi mollitia tenetur, et adipisci provident vitae minima in laborum delectus voluptas facilis?</p>  
+                </div>
+                <div class="col-3">
+                    <h2>vault</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sequi eveniet sapiente, nobis enim eos quae aliquid commodi mollitia tenetur, et adipisci provident vitae minima in laborum delectus voluptas facilis?</p>  
+                  </div>
+                  <div class="col-3">
+                    <h2>charcter</h2>
+                    <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit sequi eveniet sapiente, nobis enim eos quae aliquid commodi mollitia tenetur, et adipisci provident vitae minima in laborum delectus voluptas facilis?</p>  
+                  </div>
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuary first, then Popper.js, then Bootstrap JS -->
+    <script src="asset/js/jquery2-3.5.1.slim.min.js"></script>
+    <script src="asset/js/popper.min.js"Popper.min.js></script>
+    <script src="asset/js/boostrap.min.js"></script>
+    <script>
+     x=document.getElementsByClassName("tes")[0];
+      y=x.parentNode.parentNode;
+      x.innerHTML=y.offsetWidth;
+    </script>
+</body>
+</html>
